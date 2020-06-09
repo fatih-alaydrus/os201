@@ -8,5 +8,5 @@ Nama saya Fatih Ismail Alaydrus dengan NPM 1806191742 Kelas OS-C. Website ini me
 ---
 
 ## Navigasi
--[**Home**](https://abhiprayatj.github.io/os201/).
--[**URLs**](https://abhiprayatj.github.io/os201/URLs).
+- [**Home**](https://abhiprayatj.github.io/os201/)
+- [**URLs**](https://abhiprayatj.github.io/os201/URLs)
