@@ -1,0 +1,37 @@
+Script started on Tue 09 Jun 2020 10:27:41 AM WIB
+fatih.ismail@badak:~$ PS1="$ "
+$ echo $GitHubUser
+fatih-alaydrus
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200609-102800-862d-fatih.ismail/>
+$ PS1="\$(eval \$PSTAMP)"
+200609-102806-9a09-fatih.ismail/> echo -e $CEKSAYA
+fatih-alaydrus ZCZCSCRIPTSTART 200607-231558 fatih-alaydrus
+ fatih-alaydrus fatih-alaydrus 200607-231652-247f-fatih.ismail/ 200607-231652 SEQOK SUMOK 247f9d51
+ fatih-alaydrus fatih-alaydrus 200607-231659-1bd7-fatih.ismail/ 200607-231659 SEQOK SUMOK 1bd70397
+ fatih-alaydrus fatih-alaydrus 200607-231718-01b6-fatih.ismail/ 200607-231718 SEQOK SUMOK 01b6fde4
+ fatih-alaydrus fatih-alaydrus 200607-231730-58a5-fatih.ismail/ 200607-231730 SEQOK SUMOK 58a5763e
+ fatih-alaydrus ZCZCSCRIPTSTOP 200607-231736 SEQOK
+
+200609-102811-0d1c-fatih.ismail/> echo -e $CEKSEBELA1
+fatih-alaydrus ZCZCSCRIPTSTART 200601-164849 finishal
+ fatih-alaydrus finishal 200601-164856-f5c3-UAS/ 200601-164856 SEQOK SUMOK f5c3ac0b
+ fatih-alaydrus finishal 200601-164857-cfab-UAS/ 200601-164857 SEQOK SUMOK cfab9d8a
+ fatih-alaydrus finishal 200601-164859-c285-UAS/ 200601-164859 SEQOK SUMOK c28552c7
+ fatih-alaydrus finishal 200601-164901-4769-UAS/ 200601-164901 SEQOK SUMOK 4769d16f
+ fatih-alaydrus ZCZCSCRIPTSTOP 200601-164902 SEQOK
+
+200609-102815-fc9b-fatih.ismail/> echo -e $CEKSEBELA2
+fatih-alaydrus ZCZCSCRIPTSTART 200604-081110 fpradana
+ fatih-alaydrus fpradana 200604-081110-1454-fauzan.pradana/ 200604-081110 SEQOK SUMOK 14549390
+ fatih-alaydrus fpradana 200604-081110-1454-fauzan.pradana/ 200604-081110 SEQOK SUMOK 14549390
+ fatih-alaydrus fpradana 200604-081136-7a3c-fauzan.pradana/ 200604-081136 SEQOK SUMOK 7a3c5230
+ fatih-alaydrus fpradana 200604-081200-67f1-fauzan.pradana/ 200604-081200 SEQOK SUMOK 67f12af0
+ fatih-alaydrus ZCZCSCRIPTSTOP 200604-081211 SEQOK
+
+200609-102820-f124-fatih.ismail/> exit
+exit
+
+Script done on Tue 09 Jun 2020 10:28:25 AM WIB
